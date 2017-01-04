@@ -1,0 +1,49 @@
+{
+  "name": "wfh-bot",
+  "version": "1.0.0",
+  "description": "Working from Home bot!",
+  "main": "lib/wfhbot.js",
+  "bin": {
+    "wfhbot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js",
+    "test": "node_modules/.bin/xo data/jokesFetcher.js bin/bot.js lib/wfhbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Poche/wfh-bot.git"
+  },
+  "keywords": [
+    "wfh",
+    "bot",
+    "Slack"
+  ],
+  "author": "Poche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poche/wfh-bot/issues"
+  },
+  "homepage": "https://github.com/Poche/wfh-bot#readme",
+  "dependencies": {
+    "async": "^1.4.1",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.0.10"
+  },
+  "devDependencies": {
+    "xo": "^0.5.2"
+  },
+  "xo": {
+    "space": 4,
+    "rules": {
+      "camelcase": [
+        2,
+        {
+          "properties": "never"
+        }
+      ]
+    }
+  }
+}
