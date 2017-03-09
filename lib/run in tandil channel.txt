@@ -1,3 +1,0 @@
-xoxb-122557609361-3SVkcTBSNycc0Dhszcr6jWg2
-
-BOT_API_KEY=xoxb-122557609361-3SVkcTBSNycc0Dhszcr6jWg2 node bin/bot.js
